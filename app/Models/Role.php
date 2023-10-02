@@ -13,5 +13,7 @@ class Role extends Model
 
     protected $filleable = [
         'role',
+        'code',
+        'status'
     ];
 }

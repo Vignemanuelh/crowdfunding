@@ -12,6 +12,9 @@ class Picture extends Model
     protected $table = 'pictures';
 
     protected $filleable = [
-        'name',
+        'title',
+        'project_id',
+        'link',
+        ''
     ];
 }

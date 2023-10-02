@@ -13,6 +13,13 @@ class Contribution extends Model
 
     protected $filleable = [
         'amount',
-        'date',
+        'identity',
+        'project_id',
+        'email',
+        'phone',
+        'card_number',
+        'payment_status',
+        'payment_details',
+        'status'
     ];
 }

@@ -5,17 +5,18 @@ namespace App\Models;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 
-class Projet extends Model
+class Project extends Model
 {
     use HasFactory;
 
-    protected $table = 'projets';
+    protected $table = 'projects';
 
     protected $fillable = [
         'title',
         'description',
         'financial_goal',
-        'state',
-        'creation_date',
+        'min_contribution',
+        'unlimited',
+        'status'
     ];
 }

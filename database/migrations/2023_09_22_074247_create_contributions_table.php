@@ -13,8 +13,15 @@ return new class extends Migration
     {
         Schema::create('contributions', function (Blueprint $table) {
             $table->id();
-            $table->float('amount');
-            $table->dateTime('date');
+            $table->foreignId('project_id');
+            $table->string('identity')->nullable();
+            $table->string('email')->nullable();
+            $table->string('phone')->nullable();
+            $table->string('card_number')->nullable();
+            $table->string('payment_status');
+            $table->json('payment_details')->nullable();
+            $table->bigInteger('amount');
+            $table->boolean('status')->default(false);
             $table->timestamps();
         });
     }
