@@ -105,8 +105,8 @@
                         <div class="fv-row mb-8">
                             <label class="form-check form-check-inline">
                                 <input class="form-check-input" type="checkbox" name="toc" value="1" />
-                                <span class="form-check-label fw-semibold text-gray-700 fs-base ms-1">I Accept the
-										<a href="#" class="ms-1 link-primary">Terms</a></span>
+                                <span class="form-check-label fw-semibold text-gray-700 fs-base ms-1">J'accepte
+										<a href="#" class="ms-1 link-info">Termes et conditions générales</a></span>
                             </label>
                         </div>
                         <!--end::Accept-->

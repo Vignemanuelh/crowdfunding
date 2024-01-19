@@ -81,7 +81,7 @@
                         <div class="d-flex flex-stack flex-wrap gap-3 fs-base fw-semibold mb-8">
                             <div></div>
                             <!--begin::Link-->
-                            <a href="#" class="link-info">Mot de passe oublié ?</a>
+                            <a href="{{ route('password.request') }}" class="link-info">Mot de passe oublié ?</a>
                             <!--end::Link-->
                         </div>
                         <!--end::Wrapper-->
