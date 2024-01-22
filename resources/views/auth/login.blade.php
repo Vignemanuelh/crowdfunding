@@ -2,8 +2,7 @@
 <html lang="en">
 <!--begin::Head-->
 <head>
-    <base href="../../../">
-    <title>Connexion - Crowdfunding</title>
+    <title>Crowdfunding - Connexion</title>
     <meta charset="utf-8" />
     <meta name="description" content="Apportez votre contribution aux personnes dans le besoin" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -53,8 +52,18 @@
             <div class="card rounded-3 w-md-550px">
                 <!--begin::Card body-->
                 <div class="card-body p-10 p-lg-20">
+                    @if($errors->any())
+                        <div class="alert alert-danger">
+                            <ul>
+                                @foreach($errors->all() as $error)
+                                    <li>{{ $error }}</li>
+                                @endforeach
+                            </ul>
+                        </div>
+                    @endif
                     <!--begin::Form-->
-                    <form class="form w-100" novalidate="novalidate" id="kt_sign_in_form" data-kt-redirect-url="../../demo4/dist/index.html" action="#">
+                    <form class="form w-100" method="POST" action="{{ route('login') }}">
+                        @csrf
                         <!--begin::Heading-->
                         <div class="text-center mb-11">
                             <!--begin::Title-->
@@ -87,15 +96,7 @@
                         <!--end::Wrapper-->
                         <!--begin::Submit button-->
                         <div class="d-grid mb-10">
-                            <button type="submit" id="kt_sign_in_submit" class="btn btn-info">
-                                <!--begin::Indicator label-->
-                                <span class="indicator-label text-uppercase">Se connecter</span>
-                                <!--end::Indicator label-->
-                                <!--begin::Indicator progress-->
-                                <span class="indicator-progress">Please wait...
-										<span class="spinner-border spinner-border-sm align-middle ms-2"></span></span>
-                                <!--end::Indicator progress-->
-                            </button>
+                            <button type="submit" class="btn btn-info text-uppercase">Se connecter</button>
                         </div>
                         <!--end::Submit button-->
                         <!--begin::Sign up-->
