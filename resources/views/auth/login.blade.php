@@ -25,7 +25,13 @@
 <!--begin::Root-->
 <div class="d-flex flex-column flex-root">
     <!--begin::Page bg image-->
-    <style>body { background-image: url('assets/media/bg-3.png'); background-size: cover} [data-theme="dark"] body { background-image: url('assets/media/bg-3.jpng'); }</style>
+    <style>
+        body {
+            background-image: url('assets/media/bg-3.png');
+            background-size: cover
+        }
+        [data-theme="dark"] body { background-image: url('assets/media/bg-3.png'); }
+    </style>
     <!--end::Page bg image-->
     <!--begin::Authentication - Sign-in -->
     <div class="d-flex flex-column flex-column-fluid flex-lg-row">

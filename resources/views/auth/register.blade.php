@@ -25,7 +25,7 @@
 <!--begin::Root-->
 <div class="d-flex flex-column flex-root">
     <!--begin::Page bg image-->
-    <style>body { background-image: url('assets/media/bg-3.png'); } [data-theme="dark"] body { background-image: url('assets/media/auth/bg4-dark.jpg'); }</style>
+    <style>body { background-image: url('assets/media/bg-3.png'); } [data-theme="dark"] body { background-image: url('assets/media/bg-3.png'); }</style>
     <!--end::Page bg image-->
     <!--begin::Authentication - Sign-up -->
     <div class="d-flex flex-column flex-column-fluid flex-lg-row">
@@ -74,24 +74,24 @@
                         <!--begin::Input group=-->
                         <div class="fv-row mb-8">
                             <label for="" class="form-label">Nom</label>
-                            <input type="text" placeholder="Nom" name="last_name" autocomplete="off" class="form-control bg-transparent" />
+                            <input type="text" placeholder="Nom" name="last_name" autocomplete="off" class="form-control bg-transparent" value="{{ old('last_name') }}"/>
                         </div>
                         <!--begin::Input group-->
                         <!--begin::Input group=-->
                         <div class="fv-row mb-8">
                             <label for="" class="form-label">Prénoms</label>
-                            <input type="text" placeholder="Prénoms" name="first_name" autocomplete="off" class="form-control bg-transparent" />
+                            <input type="text" placeholder="Prénoms" name="first_name" autocomplete="off" class="form-control bg-transparent" value="{{ old('first_name') }}"/>
                         </div>
                         <!--begin::Input group-->
                         <!--begin::Input group=-->
                         <div class="fv-row mb-8">
                             <label for="" class="form-label">Email</label>
-                            <input type="text" placeholder="Email" name="email" autocomplete="off" class="form-control bg-transparent" />
+                            <input type="text" placeholder="Email" name="email" autocomplete="off" class="form-control bg-transparent" value="{{ old('email') }}"/>
                         </div>
                         <!--begin::Input group=-->
                         <div class="fv-row mb-8">
                             <label for="" class="form-label">Numéro de téléphone</label>
-                            <input type="tel" placeholder="Numéro de téléphone" name="phone" autocomplete="off" class="form-control bg-transparent" />
+                            <input type="tel" placeholder="Numéro de téléphone" name="phone" autocomplete="off" class="form-control bg-transparent"  value="{{ old('phone') }}"/>
                         </div>
                         <!--begin::Input group=-->
                         <div class="fv-row mb-8">
