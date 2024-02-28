@@ -1,1 +1,1 @@
-@extends('partials.index')
+@extends('partials.dashboard.index')

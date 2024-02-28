@@ -1,13 +1,97 @@
-<!--begin::Footer-->
-<div class="card-footer py-5 text-center" id="kt_activities_footer">
-    <a href="../../demo4/dist/pages/user-profile/activity.html" class="btn btn-bg-body text-primary">View All Activities
-        <!--begin::Svg Icon | path: icons/duotune/arrows/arr064.svg-->
-        <span class="svg-icon svg-icon-3 svg-icon-primary">
-						<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-							<rect opacity="0.5" x="18" y="13" width="13" height="2" rx="1" transform="rotate(-180 18 13)" fill="currentColor" />
-							<path d="M15.4343 12.5657L11.25 16.75C10.8358 17.1642 10.8358 17.8358 11.25 18.25C11.6642 18.6642 12.3358 18.6642 12.75 18.25L18.2929 12.7071C18.6834 12.3166 18.6834 11.6834 18.2929 11.2929L12.75 5.75C12.3358 5.33579 11.6642 5.33579 11.25 5.75C10.8358 6.16421 10.8358 6.83579 11.25 7.25L15.4343 11.4343C15.7467 11.7467 15.7467 12.2533 15.4343 12.5657Z" fill="currentColor" />
-						</svg>
-					</span>
-        <!--end::Svg Icon--></a>
-</div>
-<!--end::Footer-->
+
+<footer class="footer-area footer-height" data-background="img/bg/footer-bg.jpg">
+    <div class="footer-top pt-120">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-3 col-lg-6 col-md-6">
+                    <div class="footer-widget mb-40" data-aos="fade-up" data-aos-delay="100">
+                        <div class="footer-logo mb-15">
+                            <a href="index-2.html#"><img src="img/logo/logo.png" alt=""></a>
+                        </div>
+                        <div class="footer-text mb-25">
+                            <p>Rorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis exercitation.</p>
+                        </div>
+                        <div class="footer-social">
+                            <a href="index-2.html#"><i class="ti-facebook"></i></a>
+                            <a href="index-2.html#"><i class="ti-twitter-alt"></i></a>
+                            <a href="index-2.html#"><i class="ti-google"></i></a>
+                            <a href="index-2.html#"><i class="ti-instagram"></i></a>
+                            <a href="index-2.html#"><i class="ti-linkedin"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-2 offset-xl-1 col-lg-6 col-md-6 pl-0">
+                    <div class="footer-widget link mb-40" data-aos="fade-up" data-aos-delay="300">
+                        <h3>Fundraise For</h3>
+                        <ul class="footer-link">
+                            <li><a href="index-2.html#">Medical</a></li>
+                            <li><a href="index-2.html#">Memorial</a></li>
+                            <li><a href="index-2.html#">Emergency</a></li>
+                            <li><a href="index-2.html#">Education</a></li>
+                            <li><a href="index-2.html#">Charity</a></li>
+                            <li><a href="index-2.html#">Organization</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-xl-2 offset-xl-1 col-lg-6 col-md-6 pl-0">
+                    <div class="footer-widget link mb-40" data-aos="fade-up" data-aos-delay="500">
+                        <h3>Resources</h3>
+                        <ul class="footer-link">
+                            <li><a href="index-2.html#">Help Center</a></li>
+                            <li><a href="index-2.html#">Blog</a></li>
+                            <li><a href="index-2.html#">Press Center</a></li>
+                            <li><a href="index-2.html#">Careers</a></li>
+                            <li><a href="index-2.html#">About</a></li>
+                            <li><a href="index-2.html#">Contact</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-lg-6 col-md-6">
+                    <div class="footer-widget instagram mb-40" data-aos="fade-up" data-aos-delay="700">
+                        <h3>Photo Showcase</h3>
+                        <ul>
+                            <li>
+                                <a href="index-2.html#"><img src="img/instagram/ins-01.jpg" alt=""></a>
+                            </li>
+                            <li>
+                                <a href="index-2.html#"><img src="img/instagram/ins-02.jpg" alt=""></a>
+                            </li>
+                            <li>
+                                <a href="index-2.html#"><img src="img/instagram/ins-03.jpg" alt=""></a>
+                            </li>
+                            <li>
+                                <a href="index-2.html#"><img src="img/instagram/ins-04.jpg" alt=""></a>
+                            </li>
+                            <li>
+                                <a href="index-2.html#"><img src="img/instagram/ins-05.jpg" alt=""></a>
+                            </li>
+                            <li>
+                                <a href="index-2.html#"><img src="img/instagram/ins-06.jpg" alt=""></a>
+                            </li>
+                            <li>
+                                <a href="index-2.html#"><img src="img/instagram/ins-07.jpg" alt=""></a>
+                            </li>
+                            <li>
+                                <a href="index-2.html#"><img src="img/instagram/ins-08.jpg" alt=""></a>
+                            </li>
+                            <li>
+                                <a href="index-2.html#"><img src="img/instagram/ins-09.jpg" alt=""></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer-bottom">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="copyright-text text-center">
+                        <p>Copyright By @ Foundy - 2021</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
