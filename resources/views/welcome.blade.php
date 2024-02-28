@@ -375,6 +375,10 @@
                                     <h5>Donation</h5>
                                     <span class="rate">$6.200</span>
                                 </li>
+                                <div class="mt-2">
+                                    <a href="{{ route('details') }}" class="btn btn-primary">Plus de détails</a>
+                                    <a href="{{ route('details') }}" class="btn btn-danger" style="margin-left: 40px">Faire un don</a>
+                                </div>
                             </ul>
                         </div>
                     </div>
@@ -419,6 +423,10 @@
                                     <span class="rate">$6.200</span>
                                 </li>
                             </ul>
+                            <div class="mt-2">
+                                <a href="{{ route('details') }}" class="btn btn-primary">Plus de détails</a>
+                                <a href="{{ route('details') }}" class="btn btn-danger" style="margin-left: 40px">Faire un don</a>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -462,6 +470,10 @@
                                     <span class="rate">$6.200</span>
                                 </li>
                             </ul>
+                            <div class="mt-2">
+                                <a href="{{ route('details') }}" class="btn btn-primary">Plus de détails</a>
+                                <a href="{{ route('details') }}" class="btn btn-danger" style="margin-left: 40px">Faire un don</a>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -505,6 +517,10 @@
                                     <span class="rate">$6.200</span>
                                 </li>
                             </ul>
+                            <div class="mt-2">
+                                <a href="{{ route('details') }}" class="btn btn-primary">Plus de détails</a>
+                                <a href="{{ route('details') }}" class="btn btn-danger" style="margin-left: 40px">Faire un don</a>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -548,6 +564,10 @@
                                     <span class="rate">$6.200</span>
                                 </li>
                             </ul>
+                            <div class="mt-2">
+                                <a href="{{ route('details') }}" class="btn btn-primary">Plus de détails</a>
+                                <a href="{{ route('details') }}" class="btn btn-danger" style="margin-left: 40px">Faire un don</a>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -591,6 +611,10 @@
                                     <span class="rate">$6.200</span>
                                 </li>
                             </ul>
+                            <div class="mt-2">
+                                <a href="{{ route('details') }}" class="btn btn-primary">Plus de détails</a>
+                                <a href="{{ route('details') }}" class="btn btn-danger" style="margin-left: 40px">Faire un don</a>
+                            </div>
                         </div>
                     </div>
                 </div>
