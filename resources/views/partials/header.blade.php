@@ -13,7 +13,7 @@
                             <nav id="mobile-menu">
                                 <ul>
                                     <li><a href="/">Accueil</a></li>
-                                    <li><a href="about.html">À propos</a></li>
+                                    <li><a href="{{ route('about') }}">À propos</a></li>
                                     <li><a href="{{ route('projects') }}">Projets</a></li>
                                     <li><a href="team.html">Notre équipe</a></li>
                                     <li><a href="{{ route('contact') }}">Contactez-nous</a></li>

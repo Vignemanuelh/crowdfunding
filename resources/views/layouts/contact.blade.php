@@ -1,17 +1,14 @@
 
 <!doctype html>
-<html class="no-js" lang="zxx">
+<html class="no-js" lang="fr">
 @include('partials.head')
 <body>
-
 <!-- preloader start -->
 @include('partials.preloader')
 <!-- preloader end  -->
-
 <!-- header start -->
 @include('partials.header')
 <!-- header end -->
-
 <main>
     <!-- page title start -->
     <section class="page-title-area bg-overly slider-area slider-2" data-overlay="5" data-background="img/bg/page-title-bg.jpg">

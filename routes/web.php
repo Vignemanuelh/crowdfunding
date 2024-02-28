@@ -29,3 +29,6 @@ Route::get('/details', [ProjectController::class, 'show'])->name('details');
 Route::get('/contact', function (){
     return view('layouts.contact');
 })->name('contact');
+Route::get('/about', function (){
+    return view('layouts.about');
+})->name('about');

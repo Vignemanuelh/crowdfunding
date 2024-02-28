@@ -6,7 +6,7 @@
                 <div class="col-xl-3 col-lg-6 col-md-6">
                     <div class="footer-widget mb-40" data-aos="fade-up" data-aos-delay="100">
                         <div class="footer-logo mb-15">
-                            <a href="index-2.html#"><img src="img/logo/logo.png" alt=""></a>
+                            <a href="index-2.html#"><img src="assets/media/logos/Logo-crowd.png" alt="" width="200"></a>
                         </div>
                         <div class="footer-text mb-25">
                             <p>Rorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis exercitation.</p>
@@ -88,7 +88,7 @@
             <div class="row">
                 <div class="col-12">
                     <div class="copyright-text text-center">
-                        <p>Copyright By @ Foundy - 2021</p>
+                        <p>Copyright By @ Fifonsi - 2024</p>
                     </div>
                 </div>
             </div>
