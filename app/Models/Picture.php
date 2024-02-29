@@ -15,6 +15,6 @@ class Picture extends Model
         'title',
         'project_id',
         'link',
-        ''
+        'status'
     ];
 }
