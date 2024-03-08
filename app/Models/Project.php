@@ -16,7 +16,10 @@ class Project extends Model
         'description',
         'financial_goal',
         'min_contribution',
-        'unlimited',
+        'user_id',
+        'start_date',
+        'end_date',
+        'image',
         'status'
     ];
 }

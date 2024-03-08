@@ -1,6 +1,7 @@
 <?php
 
 use App\Http\Controllers\ProjectController;
+use App\Models\Project;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Route;
 
@@ -32,3 +33,18 @@ Route::get('/contact', function (){
 Route::get('/about', function (){
     return view('layouts.about');
 })->name('about');
+
+Route::middleware(['auth'])->group(function () {
+
+Route::get('/project/create', function (){
+    return view('dashboard.project.create');
+});
+Route::post ('/project/store', [ProjectController::class, 'store'])->name('pstore');
+Route::get ('/project/list', [ProjectController::class, 'list'])->name('plist');
+Route::get('/project/edit/{project}', [ProjectController::class, 'edit'])->name('pedit');
+Route::post ('/project/update/{project}', [ProjectController::class, 'update'])->name('pupdate');
+
+
+
+});
+

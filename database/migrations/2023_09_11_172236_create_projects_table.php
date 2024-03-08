@@ -17,7 +17,9 @@ return new class extends Migration
             $table->string('description');
             $table->bigInteger('financial_goal')->default(0);
             $table->bigInteger('min_contribution')->default(0);
-            $table->boolean('unlimited')->default(false);
+            $table->dateTime('start_date');
+            $table->dateTime('end_date')->nullable();
+            $table->string('image');
             $table->foreignId('user_id');
             $table->boolean('status')->default(false);
             $table->timestamps();
