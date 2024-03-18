@@ -161,6 +161,9 @@
             <!--end::Heading-->
             <!--begin::Controls-->
             <div class="d-flex flex-wrap my-1">
+                <div>
+                    <a class="btn btn-primary btn-sm me-3" href="{{ route('pcreate') }}">Create</a>
+                </div>
                 <!--begin::Select wrapper-->
                 <div class="m-0">
                     <!--begin::Select-->
@@ -177,112 +180,133 @@
             <!--end::Controls-->
         </div>
         <!--end::Toolbar-->
+        @if (session('status'))
+        <div class="alert  alert-success" role="alert">
+            {{ session('status') }}
+        </div>
+        @endif
         <!--begin::Row-->
         <div class="row g-6 g-xl-9">
             @foreach ($projects as $project )
             <!--begin::Col-->
             <div class="col-md-6 col-xl-4">
                 <!--begin::Card-->
-                <a href="{{ route('pedit', $project) }}" class="card border-hover-primary">
+                <div class="card border-hover-primary">
                     <!--begin::Card header-->
-                    <div class="card-header border-0 pt-9">
-                        <!--begin::Card Title-->
-                        <div class="card-title m-0">
-                            <!--begin::Avatar-->
-                            <div class="symbol symbol-50px w-50px bg-light">
-                                <img src="{{ $project->image }}" alt="image" class="p-3" />
+                    <a href="{{ route('pedit', $project) }}">
+                        <div class="card-header border-0 pt-9">
+                            <!--begin::Card Title-->
+                            <div class="card-title m-0">
+                                <!--begin::Avatar-->
+                                <div class="symbol symbol-50px w-50px bg-light">
+                                    <img src="{{asset( "$project->image") }}" alt="image" class="p-3" />
+                                </div>
+                                <!--end::Avatar-->
                             </div>
-                            <!--end::Avatar-->
+                            <!--end::Car Title-->
+                            <!--begin::Card toolbar-->
+                            <div class="card-toolbar">
+                                @if($project->status == 0)
+                                <span class="badge badge-light fw-bold me-auto px-4 py-3">Pending</span>
+                                @else
+                                <span class="badge badge-light-primary fw-bold me-auto px-4 py-3">In Progress</span>
+                                @endif
+                            </div>
+                            <!--end::Card toolbar-->
                         </div>
-                        <!--end::Car Title-->
-                        <!--begin::Card toolbar-->
-                        <div class="card-toolbar">
-                            @if($project->status == 0)
-                            <span class="badge badge-light fw-bold me-auto px-4 py-3">Pending</span>
-                            @else
-                            <span class="badge badge-light-primary fw-bold me-auto px-4 py-3">In Progress</span>
-                            @endif
-                        </div>
-                        <!--end::Card toolbar-->
-                    </div>
+                    </a>
                     <!--end:: Card header-->
                     <!--begin:: Card body-->
                     <div class="card-body p-9">
-                        <!--begin::Name-->
-                        <div class="fs-3 fw-bold text-dark">{{ $project->title }}</div>
-                        <!--end::Name-->
-                        <!--begin::Description-->
-                        <p class="text-gray-400 fw-semibold fs-5 mt-1 mb-7">{{ $project->description }}</p>
-                        <!--end::Description-->
-                        <!--begin::Info-->
-                        <div class="d-flex flex-wrap mb-5">
-                            <table>
-                                <tr>
-                                    <td>
-                                        <!--begin::Due-->
-                                        <div class="col-6 border border-gray-300 border-dashed rounded min-w-125px py-3 px-4 me-7 mb-3">
-                                            <div class="fs-6 text-gray-800 fw-bold">{{ $project->start_date }}</div>
-                                            <div class="fw-semibold text-gray-400">Start Date</div>
-                                        </div>
-                                        <!--end::Due-->
-                                    </td>
-                                    <td>
-                                        <!--begin::Due-->
-                                        <div class="col-6 border border-gray-300 border-dashed rounded min-w-125px py-3 px-4 me-7 mb-3">
-                                            <div class="fs-6 text-gray-800 fw-bold">{{ $project->end_date }}</div>
-                                            <div class="fw-semibold text-gray-400">End Date</div>
-                                        </div>
-                                        <!--end::Due-->
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>
-                                        <!--begin::Budget-->
-                                        <div class="col-6 border border-gray-300 border-dashed rounded min-w-125px py-3 px-4 mb-3">
-                                            <div class="fs-6 text-gray-800 fw-bold">${{ $project->min_contribution }}</div>
-                                            <div class="fw-semibold text-gray-400">Contribution minimum</div>
-                                        </div>
-                                        <!--end::Budget-->
-                                    </td>
-                                    <td>
-                                         <!--begin::Budget-->
-                                        <div class="col-6 border border-gray-300 border-dashed rounded min-w-125px py-3 px-4 mb-3">
-                                            <div class="fs-6 text-gray-800 fw-bold">${{ $project->financial_goal }}</div>
-                                            <div class="fw-semibold text-gray-400">Budget</div>
-                                        </div>
-                                        <!--end::Budget-->
-                                    </td>
-                                </tr>
-                            </table>
-                        </div>
+                        <a href="{{ route('pedit', $project) }}" class="card border-hover-primary">
+                            <!--begin::Name-->
+                            <div class="fs-3 fw-bold text-dark">{{ $project->title }}</div>
+                            <!--end::Name-->
+                            <!--begin::Description-->
+                            <p class="text-gray-400 fw-semibold fs-5 mt-1 mb-7 h-75px overflow-hidden ">{{ $project->description }}</p>
+                            <!--end::Description-->
+                            <!--begin::Info-->
+                            <div class="d-flex flex-wrap mb-5">
+                                <table>
+                                    <tr>
+                                        <td>
+                                            <!--begin::Due-->
+                                            <div class="col-6 border border-gray-300 border-dashed rounded min-w-125px py-3 px-4 me-7 mb-3">
+                                                <div class="fs-6 text-gray-800 fw-bold">{{ $project->start_date }}</div>
+                                                <div class="fw-semibold text-gray-400">Start Date</div>
+                                            </div>
+                                            <!--end::Due-->
+                                        </td>
+                                        <td>
+                                            <!--begin::Due-->
+                                            <div class="col-6 border border-gray-300 border-dashed rounded min-w-125px py-3 px-4 me-7 mb-3">
+                                                <div class="fs-6 text-gray-800 fw-bold">{{ $project->end_date }}</div>
+                                                <div class="fw-semibold text-gray-400">End Date</div>
+                                            </div>
+                                            <!--end::Due-->
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <!--begin::Budget-->
+                                            <div class="col-6 border border-gray-300 border-dashed rounded min-w-125px py-3 px-4 mb-3">
+                                                <div class="fs-6 text-gray-800 fw-bold">${{ $project->fund_collected }}</div>
+                                                <div class="fw-semibold text-gray-400">Fonds collectés</div>
+                                            </div>
+                                            <!--end::Budget-->
+                                        </td>
+                                        <td>
+                                            <!--begin::Budget-->
+                                            <div class="col-6 border border-gray-300 border-dashed rounded min-w-125px py-3 px-4 mb-3">
+                                                <div class="fs-6 text-gray-800 fw-bold">${{ $project->financial_goal }}</div>
+                                                <div class="fw-semibold text-gray-400">Budget</div>
+                                            </div>
+                                            <!--end::Budget-->
+                                        </td>
+                                    </tr>
+                                </table>
+                            </div>
+                        </a>
                         <!--end::Info-->
                         {{-- <!--begin::Progress-->
                         <div class="h-4px w-100 bg-light mb-5" data-bs-toggle="tooltip" title="This project 50% completed">
                             <div class="bg-primary rounded h-4px" role="progressbar" style="width: 50%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
                         </div>
                         <!--end::Progress--> --}}
-                        <!--begin::Users-->
-                        <div class="symbol-group symbol-hover">
-                            <!--begin::User-->
-                            <div class="symbol symbol-35px symbol-circle" data-bs-toggle="tooltip" title="Emma Smith">
-                                <img alt="Pic" src="assets/media/avatars/300-6.jpg" />
+                        <div class="row">
+                            <div class="col-6">
+                                <!--begin::Users-->
+                            <div class="symbol-group symbol-hover">
+                                <!--begin::User-->
+                                <div class="symbol symbol-35px symbol-circle" data-bs-toggle="tooltip" title="Emma Smith">
+                                    <img alt="Pic" src="assets/media/avatars/300-6.jpg" />
+                                </div>
+                                <!--begin::User-->
+                                <!--begin::User-->
+                                <div class="symbol symbol-35px symbol-circle" data-bs-toggle="tooltip" title="Rudy Stone">
+                                    <img alt="Pic" src="assets/media/avatars/300-1.jpg" />
+                                </div>
+                                <!--begin::User-->
+                                <!--begin::User-->
+                                <div class="symbol symbol-35px symbol-circle" data-bs-toggle="tooltip" title="Susan Redwood">
+                                    <span class="symbol-label bg-primary text-inverse-primary fw-bold">S</span>
+                                </div>
+                                <!--begin::User-->
                             </div>
-                            <!--begin::User-->
-                            <!--begin::User-->
-                            <div class="symbol symbol-35px symbol-circle" data-bs-toggle="tooltip" title="Rudy Stone">
-                                <img alt="Pic" src="assets/media/avatars/300-1.jpg" />
+                            <!--end::Users-->
                             </div>
-                            <!--begin::User-->
-                            <!--begin::User-->
-                            <div class="symbol symbol-35px symbol-circle" data-bs-toggle="tooltip" title="Susan Redwood">
-                                <span class="symbol-label bg-primary text-inverse-primary fw-bold">S</span>
+                            <div class="col-6">
+                                <div class="d-flex justify-content-end align-items-center " data-kt-filemanager-table-toolbar="selected">
+                                    {{-- <button type="button" class="btn btn-danger" >Delete</button> --}}
+                                    <div class="menu-item px-3">
+                                        <a href="{{ route('pdelete', $project) }}" class="menu-link text-danger px-3" data-kt-filemanager-table-filter="delete_row">Delete</a>
+                                    </div>
+                                </div>
                             </div>
-                            <!--begin::User-->
                         </div>
-                        <!--end::Users-->
                     </div>
                     <!--end:: Card body-->
-                </a>
+                </div>
                 <!--end::Card-->
             </div>
             @endforeach
@@ -290,7 +314,7 @@
         </div>
         <!--end::Row-->
         <div>
-            {{ $projects->links() }}
+            {{-- {{ $projects->links() }} --}}
         </div>
     </div>
     <!--end::Container-->

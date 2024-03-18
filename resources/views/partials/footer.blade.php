@@ -1,12 +1,12 @@
 
-<footer class="footer-area footer-height" data-background="img/bg/footer-bg.jpg">
+<footer class="footer-area footer-height" data-background="/img/bg/footer-bg.jpg">
     <div class="footer-top pt-120">
         <div class="container">
             <div class="row">
                 <div class="col-xl-3 col-lg-6 col-md-6">
                     <div class="footer-widget mb-40" data-aos="fade-up" data-aos-delay="100">
                         <div class="footer-logo mb-15">
-                            <a href="index-2.html#"><img src="assets/media/logos/Logo-crowd.png" alt="" width="200"></a>
+                            <a href="index-2.html#"><img src="/assets/media/logos/Logo-crowd.png" alt="" width="200"></a>
                         </div>
                         <div class="footer-text mb-25">
                             <p>Rorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis exercitation.</p>
@@ -51,31 +51,31 @@
                         <h3>Photo Showcase</h3>
                         <ul>
                             <li>
-                                <a href="index-2.html#"><img src="img/instagram/ins-01.jpg" alt=""></a>
+                                <a href="index-2.html#"><img src="/img/instagram/ins-01.jpg" alt=""></a>
                             </li>
                             <li>
-                                <a href="index-2.html#"><img src="img/instagram/ins-02.jpg" alt=""></a>
+                                <a href="index-2.html#"><img src="/img/instagram/ins-02.jpg" alt=""></a>
                             </li>
                             <li>
-                                <a href="index-2.html#"><img src="img/instagram/ins-03.jpg" alt=""></a>
+                                <a href="index-2.html#"><img src="/img/instagram/ins-03.jpg" alt=""></a>
                             </li>
                             <li>
-                                <a href="index-2.html#"><img src="img/instagram/ins-04.jpg" alt=""></a>
+                                <a href="index-2.html#"><img src="/img/instagram/ins-04.jpg" alt=""></a>
                             </li>
                             <li>
-                                <a href="index-2.html#"><img src="img/instagram/ins-05.jpg" alt=""></a>
+                                <a href="index-2.html#"><img src="/img/instagram/ins-05.jpg" alt=""></a>
                             </li>
                             <li>
-                                <a href="index-2.html#"><img src="img/instagram/ins-06.jpg" alt=""></a>
+                                <a href="index-2.html#"><img src="/img/instagram/ins-06.jpg" alt=""></a>
                             </li>
                             <li>
-                                <a href="index-2.html#"><img src="img/instagram/ins-07.jpg" alt=""></a>
+                                <a href="index-2.html#"><img src="/img/instagram/ins-07.jpg" alt=""></a>
                             </li>
                             <li>
-                                <a href="index-2.html#"><img src="img/instagram/ins-08.jpg" alt=""></a>
+                                <a href="index-2.html#"><img src="/img/instagram/ins-08.jpg" alt=""></a>
                             </li>
                             <li>
-                                <a href="index-2.html#"><img src="img/instagram/ins-09.jpg" alt=""></a>
+                                <a href="index-2.html#"><img src="/img/instagram/ins-09.jpg" alt=""></a>
                             </li>
                         </ul>
                     </div>

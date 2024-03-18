@@ -311,13 +311,13 @@
                         <!--begin::Image input-->
                         <div class="image-input image-input-outline" data-kt-image-input="true">
                             <!--begin::Preview existing avatar-->
-                            <div class="image-input-wrapper w-125px h-125px bgi-position-center" style="background-size: 75%; background-image : url('/{{ $project->image }}') "></div>
+                            <div class="image-input-wrapper w-125px h-125px bgi-position-center" style="background-size: 75%; background-image : url('{{ asset($project->image) }}') "></div>
                             <!--end::Preview existing avatar-->
                             <!--begin::Label-->
                             <label class="btn btn-icon btn-circle btn-active-color-primary w-25px h-25px bg-white shadow" data-kt-image-input-action="change" data-bs-toggle="tooltip" title="Change avatar">
                                 <i class="bi bi-pencil-fill fs-7"></i>
                                 <!--begin::Inputs-->
-                                <input type="file" name="image" accept=".png, .jpg, .jpeg" value="{{ asset('$project->image') }}" />
+                                <input type="file" name="image" accept=".png, .jpg, .jpeg" value="{{$project->image }}" />
                                 <input type="hidden" name="avatar_remove" />
                                 <!--end::Inputs-->
                             </label>
@@ -363,7 +363,7 @@
                     <!--end::Col-->
                     <!--begin::Col-->
                     <div class="col-xl-9 fv-row">
-                        <textarea name="description" value="{{ $project->description }}" class="form-control form-control-solid h-100px"></textarea>
+                        <textarea name="description" value="" class="form-control form-control-solid h-100px">{{ $project->description }}</textarea>
                     </div>
                     <!--begin::Col-->
                 </div>
@@ -385,12 +385,12 @@
                 <div class="row mb-8">
                     <!--begin::Col-->
                     <div class="col-xl-3">
-                        <div class="fs-6 fw-semibold mt-2 mb-3"> Min Contribution</div>
+                        <div class="fs-6 fw-semibold mt-2 mb-3"> Fonds collectés</div>
                     </div>
                     <!--end::Col-->
                     <!--begin::Col-->
                     <div class="col-xl-9 fv-row">
-                        <input type="text" class="form-control form-control-solid" name="min_contribution" value="{{ $project->min_contribution }}"/>
+                        <input type="text" class="form-control form-control-solid" name="fund_collected" value="{{ $project->fund_collected }}"/>
                     </div>
                 </div>
                 <!--end::Row-->
@@ -488,7 +488,7 @@
             <!--end::Card body-->
             <!--begin::Card footer-->
             <div class="card-footer d-flex justify-content-end py-6 px-9">
-                <button type="reset" class="btn btn-light btn-active-light-primary me-2">Discard</button>
+                <button type="reset" class="btn btn-light btn-active-light-primary me-2"><a href="{{ route('plist') }}">Discard</a></button>
                 <button type="submit" class="btn btn-primary" id="kt_project_settings_submit">Save Changes</button>
             </div>
             <!--end::Card footer-->

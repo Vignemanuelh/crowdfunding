@@ -19,7 +19,7 @@
         <!--begin::Mobile logo-->
         <div class="d-flex align-items-center flex-grow-1 flex-lg-grow-0">
             <a href="../../demo1/dist/index.html" class="d-lg-none">
-                <img alt="Logo" src="/assets/media/logos/logo-2.svg" class="h-30px" />
+                <img alt="Logo" src="/assets/media/logos/logo-c-blue.png" class="h-30px" />
             </a>
         </div>
         <!--end::Mobile logo-->
@@ -67,7 +67,7 @@
                         <!--end::Menu item-->
                         <!--begin::Menu item-->
                         <div class="menu-item px-5">
-                            <a href="../../demo1/dist/apps/projects/list.html" class="menu-link px-5">
+                            <a href="{{ route('plist') }}" class="menu-link px-5">
                                 <span class="menu-text">Mes Projets</span>
                                 <span class="menu-badge">
                                     <span class="badge badge-light-danger badge-circle fw-bolder fs-7">3</span>

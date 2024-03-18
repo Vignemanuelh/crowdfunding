@@ -6,7 +6,7 @@
     <!--begin::Brand-->
     <div class="aside-logo flex-column-auto" id="kt_aside_logo">
         <!--begin::Logo-->
-        <a href="../../demo1/dist/index.html">
+        <a href="{{ route('home') }}">
             <img alt="Logo" src="/assets/media/logos/logo-c-blue.png" class="h-50px logo"/>
         </a>
         <!--end::Logo-->
@@ -43,33 +43,39 @@
                 class="menu menu-column menu-title-gray-800 menu-state-title-primary menu-state-icon-primary menu-state-bullet-primary menu-arrow-gray-500"
                 id="#kt_aside_menu" data-kt-menu="true" data-kt-menu-expand="false">
                 <div class="menu-item">
-									<span class="menu-link">
-										<span class="menu-icon">
-                                            <i class="fa fa-home ql-bg-blue"></i>
-										</span>
-										<span class="menu-title">Accueil</span>
-									</span>
+                    <a href="{{ route('home') }}">
+                        <span class="menu-link">
+                            <span class="menu-icon">
+                                <i class="fa fa-home ql-bg-blue"></i>
+                            </span>
+                            <span class="menu-title">Accueil</span>
+                        </span>
+                    </a>
                 </div>
                 <div class="menu-item mb-1">
-									<span class="menu-link">
-										<span class="menu-icon"><i class="fa fa-solid fa-rocket"></i></span>
-										<span class="menu-title">Projets</span>
-
-									</span>
+                    <a href="{{ route('plist') }}">
+                        <span class="menu-link">
+                            <span class="menu-icon"><i class="fa fa-solid fa-rocket"></i></span>
+                            <span class="menu-title">Projets</span>
+                        </span>
+                    </a>
                 </div>
 
                 <div class="menu-item mb-1">
-									<span class="menu-link">
-										<span class="menu-icon"><i class="fa fa-user"></i></span>
-										<span class="menu-title">Utilisateurs</span>
-									</span>
+                    <a href="">
+                        <span class="menu-link">
+                            <span class="menu-icon"><i class="fa fa-user"></i></span>
+                            <span class="menu-title">Utilisateurs</span>
+                        </span>
+                    </a>
                 </div>
                 <div class="menu-item">
-									<span class="menu-link">
-										<span class="menu-icon"><i class="fa fa-solid fa-hand-holding-usd"></i></span>
-										<span class="menu-title">Contributions</span>
-
-									</span>
+                    <a href="">
+                        <span class="menu-link">
+                            <span class="menu-icon"><i class="fa fa-solid fa-hand-holding-usd"></i></span>
+                            <span class="menu-title">Contributions</span>
+                        </span>
+                    </a>
                 </div>
             </div>
             <!--end::Menu-->

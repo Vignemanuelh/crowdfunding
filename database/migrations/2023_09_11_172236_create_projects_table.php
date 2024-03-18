@@ -14,9 +14,9 @@ return new class extends Migration
         Schema::create('projects', function (Blueprint $table) {
             $table->id();
             $table->string('title');
-            $table->string('description');
+            $table->text('description');
             $table->bigInteger('financial_goal')->default(0);
-            $table->bigInteger('min_contribution')->default(0);
+            $table->bigInteger('fund_collected')->default(0);
             $table->dateTime('start_date');
             $table->dateTime('end_date')->nullable();
             $table->string('image');

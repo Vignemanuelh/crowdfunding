@@ -199,7 +199,7 @@ label {
 }
 /* button style */
 .thm-btn {
-	z-index: 1;
+	z-index: 1;f
 	font-size: 16px;
 	line-height: 24px;
 	padding: 18px 35px;
@@ -2618,7 +2618,7 @@ label {
 /* 23 preloader  */
 .dark #preloader {
 	background-color: #232323;
-} 
+}
 #preloader {
 	position: fixed;
 	top: 0;
@@ -2664,7 +2664,7 @@ label {
 	  transform: scale(0, 0);
 	  opacity: 0.5;
 	}
-  
+
 	100% {
 	  transform: scale(1, 1);
 	  opacity: 0;
@@ -2675,7 +2675,7 @@ label {
 	  -webkit-transform: scale(0, 0);
 	  opacity: 0.5;
 	}
-  
+
 	100% {
 	  -webkit-transform: scale(1, 1);
 	  opacity: 0;

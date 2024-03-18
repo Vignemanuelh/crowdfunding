@@ -17,13 +17,13 @@
     <section class="slider-area slider-2">
         <div class="slider-active">
             <div class="single-slider slider-height d-flex align-items-center"
-                 data-background="img/bg/slider-bg-03.jpg">
+                 data-background="/img/bg/slider-bg-03.jpg">
                 <div class="container">
                     <div class="slider-wrapper mt-200">
                         <div class="row">
                             <div class="col-xl-6 col-lg-8">
                                 <div class="slider-shape">
-                                    <img src="img/shape/slider-shape-bg-2.png" alt="">
+                                    <img src="/img/shape/slider-shape-bg-2.png" alt="">
                                 </div>
                                 <div class="slider-content">
                                     <div class="silder-text">
@@ -48,7 +48,7 @@
                             <div class="col-xl-6">
                                 <div class="slider-thumb d-none d-xl-block" data-animation="fadeInRight"
                                      data-delay=".8s">
-                                    <img src="img/slider/slider01.png" alt="">
+                                    <img src="/img/slider/slider01.png" alt="">
                                 </div>
                             </div>
                         </div>
@@ -56,13 +56,13 @@
                 </div>
             </div>
             <div class="single-slider slider-height d-flex align-items-center"
-                 data-background="img/bg/slider-bg-03.jpg">
+                 data-background="/img/bg/slider-bg-03.jpg">
                 <div class="container">
                     <div class="slider-wrapper mt-200">
                         <div class="row">
                             <div class="col-xl-6 col-lg-8">
                                 <div class="slider-shape">
-                                    <img src="img/shape/slider-shape-bg-2.png" alt="">
+                                    <img src="/img/shape/slider-shape-bg-2.png" alt="">
                                 </div>
                                 <div class="slider-content">
                                     <div class="silder-text">
@@ -87,7 +87,7 @@
                             <div class="col-xl-6">
                                 <div class="slider-thumb d-none d-xl-block" data-animation="fadeInRight"
                                      data-delay=".8s">
-                                    <img src="img/slider/slider01.png" alt="">
+                                    <img src="/img/slider/slider01.png" alt="">
                                 </div>
                             </div>
                         </div>
@@ -105,7 +105,7 @@
                 <div class="col-lg-3 col-md-6">
                     <div class="single-counter text-center mb-30" data-aos="fade-up" data-aos-delay="100">
                         <div class="counter-icon mb-25">
-                            <img src="img/icon/c01.png" alt="">
+                            <img src="/img/icon/c01.png" alt="">
                         </div>
                         <div class="counter-text">
                             <h3><span class="counter">12</span>k+</h3>
@@ -116,7 +116,7 @@
                 <div class="col-lg-3 col-md-6">
                     <div class="single-counter text-center mb-30" data-aos="fade-up" data-aos-delay="300">
                         <div class="counter-icon counter-icon-2 mb-25">
-                            <img src="img/icon/c02.png" alt="">
+                            <img src="/img/icon/c02.png" alt="">
                         </div>
                         <div class="counter-text">
                             <h3><span class="counter">8</span>k+</h3>
@@ -127,7 +127,7 @@
                 <div class="col-lg-3 col-md-6">
                     <div class="single-counter text-center mb-30" data-aos="fade-up" data-aos-delay="500">
                         <div class="counter-icon counter-icon-3 mb-25">
-                            <img src="img/icon/c03.png" alt="">
+                            <img src="/img/icon/c03.png" alt="">
                         </div>
                         <div class="counter-text">
                             <h3><span class="counter">10</span>m+</h3>
@@ -138,7 +138,7 @@
                 <div class="col-lg-3 col-md-6">
                     <div class="single-counter text-center mb-30" data-aos="fade-up" data-aos-delay="700">
                         <div class="counter-icon counter-icon-4 mb-25">
-                            <img src="img/icon/c04.png" alt="">
+                            <img src="/img/icon/c04.png" alt="">
                         </div>
                         <div class="counter-text">
                             <h3><span class="counter">300</span>+</h3>
@@ -157,7 +157,7 @@
             <div class="row align-items-center">
                 <div class="col-xl-5">
                     <div class="about-thumb" data-aos="fade-right" data-aos-delay="100">
-                        <img src="img/about/about-right.jpg" alt="">
+                        <img src="/img/about/about-right.jpg" alt="">
                     </div>
                 </div>
                 <div class="col-xl-6 offset-xl-1">
@@ -205,7 +205,7 @@
                     <div class="feature-animate" data-aos="fade-up" data-aos-delay="100">
                         <div class="feture-single mb-30">
                             <div class="feature-icon mb-20">
-                                <img src="img/icon/f01.png" alt="">
+                                <img src="/img/icon/f01.png" alt="">
                             </div>
                             <div class="feature-text">
                                 <h3>L'eau potable</h3>
@@ -222,7 +222,7 @@
                     <div class="feuture-animate" data-aos="fade-up" data-aos-delay="300">
                         <div class="feture-single active mb-30">
                             <div class="feature-icon mb-20">
-                                <img src="img/icon/f02.png" alt="">
+                                <img src="/img/icon/f02.png" alt="">
                             </div>
                             <div class="feature-text">
                                 <h3>Faire un don</h3>
@@ -239,7 +239,7 @@
                     <div class="feature-animate" data-aos="fade-up" data-aos-delay="500">
                         <div class="feture-single mb-30">
                             <div class="feature-icon mb-20">
-                                <img src="img/icon/f03.png" alt="">
+                                <img src="/img/icon/f03.png" alt="">
                             </div>
                             <div class="feature-text">
                                 <h3>Construire des abris</h3>
@@ -256,7 +256,7 @@
                     <div class="feature-animate" data-aos="fade-up" data-aos-delay="100">
                         <div class="feture-single mb-30">
                             <div class="feature-icon mb-20">
-                                <img src="img/icon/f04.png" alt="">
+                                <img src="/img/icon/f04.png" alt="">
                             </div>
                             <div class="feature-text">
                                 <h3>Fournir de la nourriture</h3>
@@ -273,7 +273,7 @@
                     <div class="feature-animate" data-aos="fade-up" data-aos-delay="300">
                         <div class="feture-single mb-30">
                             <div class="feature-icon mb-20">
-                                <img src="img/icon/f05.png" alt="">
+                                <img src="/img/icon/f05.png" alt="">
                             </div>
                             <div class="feature-text">
                                 <h3>Aides aux enfants</h3>
@@ -290,7 +290,7 @@
                     <div class="feature-animate" data-aos="fade-up" data-aos-delay="500">
                         <div class="feture-single mb-30">
                             <div class="feature-icon mb-20">
-                                <img src="img/icon/f06.png" alt="">
+                                <img src="/img/icon/f06.png" alt="">
                             </div>
                             <div class="feature-text">
                                 <h3>Redonner le sourire à ceux qui l'ont perdu</h3>
@@ -309,7 +309,7 @@
     <!-- feature end -->
 
     <!-- cta start -->
-    <section class="cta-area bg-overly pt-120 pb-120" data-overlay="6" data-background="img/bg/cta-bg.jpg">
+    <section class="cta-area bg-overly pt-120 pb-120" data-overlay="6" data-background="/img/bg/cta-bg.jpg">
         <div class="container">
             <div class="row">
                 <div class="col-12">
@@ -329,7 +329,8 @@
     <!-- cta end -->
 
     <!-- causes start -->
-    <section class="causes-area gray-bg pt-120 pb-90">
+    @include('partials.projects_index')
+    {{-- <section class="causes-area gray-bg pt-120 pb-90">
         <div class="container">
             <div class="section-title text-center" data-aos="fade-up" data-aos-delay="100">
                 <h5>Nos projets</h5>
@@ -339,7 +340,7 @@
                 <div class="col-lg-4 col-md-6">
                     <div class="causes-single mb-30" data-aos="fade-up" data-aos-delay="100">
                         <div class="causes-thumb">
-                            <img src="img/causes/causes-01.jpg" alt="">
+                            <img src="/img/causes/causes-01.jpg" alt="">
                         </div>
                         <div class="causes-content">
                             <div class="causes-head clearfix mb-10">
@@ -386,7 +387,7 @@
                 <div class="col-lg-4 col-md-6">
                     <div class="causes-single mb-30" data-aos="fade-up" data-aos-delay="300">
                         <div class="causes-thumb">
-                            <img src="img/causes/causes-02.jpg" alt="">
+                            <img src="/img/causes/causes-02.jpg" alt="">
                         </div>
                         <div class="causes-content">
                             <div class="causes-head causes-head-2 clearfix mb-10">
@@ -433,7 +434,7 @@
                 <div class="col-lg-4 col-md-6">
                     <div class="causes-single mb-30" data-aos="fade-up" data-aos-delay="500">
                         <div class="causes-thumb">
-                            <img src="img/causes/causes-03.jpg" alt="">
+                            <img src="/img/causes/causes-03.jpg" alt="">
                         </div>
                         <div class="causes-content">
                             <div class="causes-head causes-head-3 clearfix mb-10">
@@ -480,7 +481,7 @@
                 <div class="col-lg-4 col-md-6">
                     <div class="causes-single mb-30" data-aos="fade-up" data-aos-delay="100">
                         <div class="causes-thumb">
-                            <img src="img/causes/causes-04.jpg" alt="">
+                            <img src="/img/causes/causes-04.jpg" alt="">
                         </div>
                         <div class="causes-content">
                             <div class="causes-head clearfix mb-10">
@@ -527,7 +528,7 @@
                 <div class="col-lg-4 col-md-6">
                     <div class="causes-single mb-30" data-aos="fade-up" data-aos-delay="300">
                         <div class="causes-thumb">
-                            <img src="img/causes/causes-05.jpg" alt="">
+                            <img src="/img/causes/causes-05.jpg" alt="">
                         </div>
                         <div class="causes-content">
                             <div class="causes-head causes-head-2 clearfix mb-10">
@@ -574,7 +575,7 @@
                 <div class="col-lg-4 col-md-6">
                     <div class="causes-single mb-30" data-aos="fade-up" data-aos-delay="500">
                         <div class="causes-thumb">
-                            <img src="img/causes/causes-06.jpg" alt="">
+                            <img src="/img/causes/causes-06.jpg" alt="">
                         </div>
                         <div class="causes-content">
                             <div class="causes-head causes-head-3 clearfix mb-10">
@@ -620,7 +621,7 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section> --}}
     <!-- causes end -->
 
     <!-- video start -->
@@ -630,11 +631,11 @@
                 <div class="col-12">
                     <div class="video-bg pos-rel">
                         <div class="video-thumb">
-                            <img src="img/bg/video-bg-2.jpg" alt="">
+                            <img src="/img/bg/video-bg-2.jpg" alt="">
                         </div>
                         <div class="video-icon-wrapper">
                             <a class="popup-video video-icon" href="https://www.youtube.com/watch?v=cRXm1p-CNyk"><img
-                                    src="img/icon/play.png" alt=""></a>
+                                    src="/img/icon/play.png" alt=""></a>
                         </div>
                     </div>
                 </div>
@@ -655,7 +656,7 @@
                     <div class="col-xl-4">
                         <div class="testimonial-wrapper text-center">
                             <div class="testimonial-thumb">
-                                <img src="img/testimonial/test01.png" alt="">
+                                <img src="/img/testimonial/test01.png" alt="">
                             </div>
                             <div class="client-info mb-15">
                                 <h4>Garace Anderson</h4>
@@ -678,7 +679,7 @@
                     <div class="col-xl-4">
                         <div class="testimonial-wrapper text-center">
                             <div class="testimonial-thumb">
-                                <img src="img/testimonial/test02.png" alt="">
+                                <img src="/img/testimonial/test02.png" alt="">
                             </div>
                             <div class="client-info mb-15">
                                 <h4>Garace Anderson</h4>
@@ -701,7 +702,7 @@
                     <div class="col-xl-4">
                         <div class="testimonial-wrapper text-center">
                             <div class="testimonial-thumb">
-                                <img src="img/testimonial/test03.png" alt="">
+                                <img src="/img/testimonial/test03.png" alt="">
                             </div>
                             <div class="client-info mb-15">
                                 <h4>Garace Anderson</h4>
@@ -724,7 +725,7 @@
                     <div class="col-xl-4">
                         <div class="testimonial-wrapper text-center">
                             <div class="testimonial-thumb">
-                                <img src="img/testimonial/test02.png" alt="">
+                                <img src="/img/testimonial/test02.png" alt="">
                             </div>
                             <div class="client-info mb-15">
                                 <h4>Garace Anderson</h4>
@@ -761,11 +762,11 @@
                 <div class="col-lg-4 col-md-6">
                     <div class="single-gallery text-center mb-30" data-aos="fade-up" data-aos-delay="100">
                         <div class="gallery-thumb">
-                            <img src="img/gallery/gallery-01.jpg" alt="">
+                            <img src="/img/gallery/gallery-01.jpg" alt="">
                         </div>
                         <div class="gallery-content">
                             <div class="content-view">
-                                <a class="popup-image" href="img/gallery/gallery-01.jpg"><i class="ti-plus"></i></a>
+                                <a class="popup-image" href="/img/gallery/gallery-01.jpg"><i class="ti-plus"></i></a>
                             </div>
                             <h3>Product Name Here</h3>
                             <span>By: Foundy Theme</span>
@@ -775,11 +776,11 @@
                 <div class="col-lg-4 col-md-6">
                     <div class="single-gallery text-center mb-30" data-aos="fade-up" data-aos-delay="300">
                         <div class="gallery-thumb">
-                            <img src="img/gallery/gallery-02.jpg" alt="">
+                            <img src="/img/gallery/gallery-02.jpg" alt="">
                         </div>
                         <div class="gallery-content">
                             <div class="content-view">
-                                <a class="popup-image" href="img/gallery/gallery-02.jpg"><i class="ti-plus"></i></a>
+                                <a class="popup-image" href="/img/gallery/gallery-02.jpg"><i class="ti-plus"></i></a>
                             </div>
                             <h3>Product Name Here</h3>
                             <span>By: Foundy Theme</span>
@@ -789,11 +790,11 @@
                 <div class="col-lg-4 col-md-6">
                     <div class="single-gallery text-center mb-30" data-aos="fade-up" data-aos-delay="500">
                         <div class="gallery-thumb">
-                            <img src="img/gallery/gallery-03.jpg" alt="">
+                            <img src="/img/gallery/gallery-03.jpg" alt="">
                         </div>
                         <div class="gallery-content">
                             <div class="content-view">
-                                <a class="popup-image" href="img/gallery/gallery-03.jpg"><i class="ti-plus"></i></a>
+                                <a class="popup-image" href="/img/gallery/gallery-03.jpg"><i class="ti-plus"></i></a>
                             </div>
                             <h3>Product Name Here</h3>
                             <span>By: Foundy Theme</span>
@@ -803,11 +804,11 @@
                 <div class="col-lg-4 col-md-6">
                     <div class="single-gallery text-center mb-30" data-aos="fade-up" data-aos-delay="100">
                         <div class="gallery-thumb">
-                            <img src="img/gallery/gallery-04.jpg" alt="">
+                            <img src="/img/gallery/gallery-04.jpg" alt="">
                         </div>
                         <div class="gallery-content">
                             <div class="content-view">
-                                <a class="popup-image" href="img/gallery/gallery-04.jpg"><i class="ti-plus"></i></a>
+                                <a class="popup-image" href="/img/gallery/gallery-04.jpg"><i class="ti-plus"></i></a>
                             </div>
                             <h3>Product Name Here</h3>
                             <span>By: Foundy Theme</span>
@@ -817,11 +818,11 @@
                 <div class="col-lg-4 col-md-6">
                     <div class="single-gallery text-center mb-30" data-aos="fade-up" data-aos-delay="300">
                         <div class="gallery-thumb">
-                            <img src="img/gallery/gallery-05.jpg" alt="">
+                            <img src="/img/gallery/gallery-05.jpg" alt="">
                         </div>
                         <div class="gallery-content">
                             <div class="content-view">
-                                <a class="popup-image" href="img/gallery/gallery-05.jpg"><i class="ti-plus"></i></a>
+                                <a class="popup-image" href="/img/gallery/gallery-05.jpg"><i class="ti-plus"></i></a>
                             </div>
                             <h3>Product Name Here</h3>
                             <span>By: Foundy Theme</span>
@@ -831,11 +832,11 @@
                 <div class="col-lg-4 col-md-6">
                     <div class="single-gallery text-center mb-30" data-aos="fade-up" data-aos-delay="500">
                         <div class="gallery-thumb">
-                            <img src="img/gallery/gallery-06.jpg" alt="">
+                            <img src="/img/gallery/gallery-06.jpg" alt="">
                         </div>
                         <div class="gallery-content">
                             <div class="content-view">
-                                <a class="popup-image" href="img/gallery/gallery-06.jpg"><i class="ti-plus"></i></a>
+                                <a class="popup-image" href="/img/gallery/gallery-06.jpg"><i class="ti-plus"></i></a>
                             </div>
                             <h3>Product Name Here</h3>
                             <span>By: Foundy Theme</span>
@@ -859,7 +860,7 @@
                     <div class="news-single mb-30" data-aos="fade-up" data-aos-delay="100">
                         <div class="news-thumb">
                             <a href="news-details.html">
-                                <img src="img/news/news-01.jpg" alt="">
+                                <img src="/img/news/news-01.jpg" alt="">
                             </a>
                         </div>
                         <div class="news-content">
@@ -885,7 +886,7 @@
                     <div class="news-single mb-30" data-aos="fade-up" data-aos-delay="300">
                         <div class="news-thumb">
                             <a href="news-details.html">
-                                <img src="img/news/news-02.jpg" alt="">
+                                <img src="/img/news/news-02.jpg" alt="">
                             </a>
                         </div>
                         <div class="news-content news-content-2">
@@ -911,7 +912,7 @@
                     <div class="news-single mb-30" data-aos="fade-up" data-aos-delay="500">
                         <div class="news-thumb">
                             <a href="news-details.html">
-                                <img src="img/news/news-03.jpg" alt="">
+                                <img src="/img/news/news-03.jpg" alt="">
                             </a>
                         </div>
                         <div class="news-content news-content-3">

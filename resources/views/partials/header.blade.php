@@ -5,7 +5,7 @@
                 <div class="row align-items-center">
                     <div class="col-xl-2 col-lg-2">
                         <div class="logo">
-                            <a href="index.html"><img src="assets/media/logos/logo-c-blue.png" alt="logo"></a>
+                            <a href="index.html"><img src="/assets/media/logos/logo-c-blue.png" alt="logo"></a>
                         </div>
                     </div>
                     <div class="col-xl-6 col-lg-7">
@@ -52,7 +52,7 @@
                 </div>
                 <div class="logo-side mb-30">
                     <a href="index.html">
-                        <img src="img/logo/logo-2.png" alt="">
+                        <img src="/img/logo/logo-2.png" alt="">
                     </a>
                 </div>
                 <div class="side-info mb-30">

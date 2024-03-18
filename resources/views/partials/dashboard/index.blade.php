@@ -16,7 +16,7 @@
         @include('partials.dashboard.aside')
         <!--end::Aside-->
         <!--begin::Wrapper-->
-        <div class="wrapper d-flex flex-column flex-row-fluid" id="kt_wrapper">
+        <div class="wrapper d-flex flex-column flex-row-fluid pt-75" id="kt_wrapper">
             <!--begin::Header-->
             @include('partials.dashboard.header')
             <!--end::Header-->

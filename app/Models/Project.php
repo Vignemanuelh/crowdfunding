@@ -4,6 +4,7 @@ namespace App\Models;
 
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
+use Illuminate\Database\Eloquent\Relations\BelongsTo;
 
 class Project extends Model
 {
@@ -15,11 +16,16 @@ class Project extends Model
         'title',
         'description',
         'financial_goal',
-        'min_contribution',
+        'fund_collected',
         'user_id',
         'start_date',
         'end_date',
         'image',
         'status'
     ];
+
+    public function users() :BelongsTo
+    {
+        return $this->belongsTo(User::class);
+    }
 }
